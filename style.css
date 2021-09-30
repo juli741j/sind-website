@@ -1,7 +1,7 @@
 :root {
   --bs-light-rgb: 254, 255, 242;
 }
-
+/* navmenu */
 .bg-light {
   background-color: #fefff2;
 }
@@ -13,23 +13,16 @@
 .navbar-light .navbar-nav .nav-link {
   color: black;
 }
-/* 
-#landing {
-  background: url(img/header\ img.jpg) center center fixed;
-  display: table;
-  height: 100%;
-  position: relative;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
+
+.navbar-light .navbar-toggler {
+  border: none;
 }
 
-.container {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-} */
-
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+/* navmenu end */
+/* splashphoto */
 #hero div {
   justify-items: center;
   align-items: center;
@@ -42,8 +35,11 @@
   width: 100%;
 }
 
-#hero div h1 {
-  /* text-align: center;
-  vertical-align: middle;
-  line-height: 90px; */
+#hero h1 {
+  font-family: "Berkshire Swash", cursive;
 }
+
+#hero h2 {
+  font-family: "Vidaloka", serif;
+}
+/* splashphoto end */
