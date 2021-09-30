@@ -1,0 +1,43 @@
+:root {
+  --bs-light-rgb: 254, 255, 242;
+}
+
+.bg-light {
+  background-color: #fefff2;
+}
+
+.nav-link {
+  font-family: "Vidaloka", serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+/* 
+#landing {
+  background: url(img/header\ img.jpg) center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+} */
+
+#hero div {
+  justify-items: center;
+  align-items: end;
+}
+#hero div * {
+  grid-area: 1/1/-1/-1;
+}
+
+#hero img {
+  width: 100%;
+}
