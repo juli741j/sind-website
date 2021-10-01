@@ -1,6 +1,8 @@
 :root {
   --bs-light-rgb: 254, 255, 242;
+  --bs-primary-rgb: 151, 166, 113;
 }
+
 /* navmenu */
 .bg-light {
   background-color: #fefff2;
@@ -43,3 +45,25 @@
   font-family: "Vidaloka", serif;
 }
 /* splashphoto end */
+/* intro  */
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+.typo h2 {
+  font-family: "Berkshire Swash", cursive;
+}
+
+.typo p {
+  font-family: "Vidaloka", serif;
+}
+
+.img1 img {
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+}
+
+.primary-rgb {
+  border: 4px #97a671 solid;
+}
