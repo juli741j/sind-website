@@ -67,3 +67,22 @@
 .primary-rgb {
   border: 4px #97a671 solid;
 }
+
+/* room spray */
+
+.background {
+  background-color: #97a671;
+}
+
+.light-border {
+  border: 4px solid #fefff2;
+}
+
+.btn {
+  font-family: "Vidaloka", serif;
+}
+
+.btn-outline-light:hover {
+  color: #97a671;
+  background-color: white;
+}
