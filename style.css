@@ -116,3 +116,44 @@
 #helbred img {
   width: 100%;
 }
+
+/* følg os  */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.img-hover:hover {
+  opacity: 0.7;
+}
+
+/* animation  */
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 4s;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+}
+
+.zoom {
+  animation-name: zoom;
+  animation-duration: 4s;
+}
