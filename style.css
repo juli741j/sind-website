@@ -5,8 +5,17 @@
 
 /* navmenu */
 
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
 .fixed-top {
   background-color: rgba(0, 0, 0, 0.226);
+}
+
+.btn-outline-dark:hover {
+  background-color: #97ae82;
+  border-color: #97ae82;
 }
 
 .bg-light {
@@ -42,6 +51,7 @@
 #hero div {
   justify-items: center;
   align-items: center;
+  text-shadow: 2px 2px 4px #00000083;
 }
 #hero div * {
   grid-area: 1/1/-1/-1;
@@ -54,7 +64,7 @@
 #hero h1 {
   font-family: "Playfair Display", serif;
   font-style: italic;
-  font-size: small;
+  font-size: large;
 }
 
 #hero h3 {
@@ -69,22 +79,9 @@
   --bs-gutter-x: 0;
 }
 
-/* .typo h2 {
-  font-family: "Berkshire Swash", cursive;
-} */
-
-/* .typo p {
-  font-family: "Vidaloka", serif;
-} */
-
 .white {
   color: white;
 }
-
-/* .img1 img {
-  position: relative;
-  left: 24px;
-} */
 
 .green {
   color: #97a671;
