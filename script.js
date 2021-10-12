@@ -8,17 +8,15 @@ const sections = document.querySelectorAll("section");
 sections.forEach((section) => {
   // Lave en henvisning til h2 samt p
   const h2 = section.querySelectorAll("h2");
-  // const button = section.querySelectorAll("button");
-  //   const p = section.querySelectorAll("p");
 
   gsap
     .timeline({
       scrollTrigger: {
         trigger: section,
-        start: "top 50%",
-        end: "bottom 70%",
+        start: "top 60%",
+        end: "bottom 80%",
         scrub: true,
-        // pin: true,
+
         // markers: true,
       },
     })
@@ -26,14 +24,4 @@ sections.forEach((section) => {
       opacity: 0,
       duration: 1,
     });
-  // .from(button, {
-  //   opacity: 0,
-  //   duration: 1,
-  // });
-  // .from(p, {
-  //   opacity: 0,
-  //   y: 100,
-  //   stagger: 1,
-  //   duration: 1,
-  // });
 });
