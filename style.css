@@ -4,8 +4,17 @@
 }
 
 /* navmenu */
+
+.fixed-top {
+  background-color: rgba(0, 0, 0, 0.226);
+}
+
 .bg-light {
   background-color: #fefff2;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
 }
 
 .nav-link {
@@ -13,10 +22,10 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: black;
+  color: white;
 }
 
-.navbar-light .navbar-toggler {
+.navbar-dark .navbar-toggler {
   border: none;
 }
 
@@ -43,32 +52,43 @@
 }
 
 #hero h1 {
-  font-family: "Berkshire Swash", cursive;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: small;
 }
 
 #hero h3 {
-  font-family: "Vidaloka", serif;
+  font-family: "Playfair Display", serif;
+  font-size: medium;
 }
 /* splashphoto end */
+
 /* intro  */
 
 .row {
   --bs-gutter-x: 0;
 }
 
-.typo h2 {
+/* .typo h2 {
   font-family: "Berkshire Swash", cursive;
-}
+} */
 
-.typo p {
+/* .typo p {
   font-family: "Vidaloka", serif;
+} */
+
+.white {
+  color: white;
 }
 
-.img1 img {
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-}
+/* .img1 img {
+  position: relative;
+  left: 24px;
+} */
 
+.green {
+  color: #97a671;
+}
 .primary-rgb {
   border: 4px #97a671 solid;
 }
@@ -76,7 +96,7 @@
 /* room spray */
 
 .background {
-  background-color: #97a671;
+  background-color: #97ae82;
 }
 
 .light-border {
@@ -85,6 +105,8 @@
 
 .btn {
   font-family: "Vidaloka", serif;
+  border-radius: 0;
+  font-style: italic;
 }
 
 .btn-outline-light:hover {
@@ -94,10 +116,14 @@
 
 /* ingredienser */
 
-#ingredienser {
+/* #ingredienser {
   background-image: url(img/dråbe-gif-2.gif);
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-size: 40rem;
+} */
+
+.align {
+  text-align: left;
 }
 
 .subtitle-font {
@@ -120,23 +146,22 @@
 }
 
 /* helbred */
-#helbred div {
+/* #helbred div {
   justify-items: center;
   align-items: center;
   position: relative;
   background-color: rgba(0, 0, 0, 0.37);
   border-radius: 1rem;
-}
-#helbred div * {
+} */
+/* #helbred div * {
   grid-area: 1/1/-1/-1;
-}
+} */
 
-#helbred img {
+/* #helbred img {
   width: 100%;
-}
+} */
 
 #myVideo {
-  /* position: fixed; */
   width: 100%;
 }
 
