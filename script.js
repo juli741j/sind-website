@@ -8,6 +8,7 @@ const sections = document.querySelectorAll("section");
 sections.forEach((section) => {
   // Lave en henvisning til h2 samt p
   const h2 = section.querySelectorAll("h2");
+  const p = section.querySelectorAll("p");
 
   gsap
     .timeline({
@@ -23,5 +24,9 @@ sections.forEach((section) => {
     .from(h2, {
       opacity: 0,
       duration: 1,
+    })
+    .from(p, {
+      opacity: 0,
+      duration: 2,
     });
 });
